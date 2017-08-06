@@ -1,0 +1,16 @@
+{
+  "namespace": "kakfa-avro.test",
+  "type": "record",
+  "name": "site",
+  "fields":[
+    {
+      "name": "batch_id", "type": "string"
+    },
+    {
+      "name": "sites",  "type": "string"
+    },
+    {
+      "name": "timestamp", "type": "string"
+    }
+  ]
+}
